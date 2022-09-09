@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/templateListener.xsd">
+	<import>
+		<templatelistener name="uzbotNotifyTimeline">
+			<environment>admin</environment>
+			<templatename>uzbotAdd</templatename>
+			<eventname>UzbotNotify</eventname>
+			<templatecode><![CDATA[{include file='__uzbotAddNotifyTimeline' application='timeline'}]]></templatecode>
+		</templatelistener>
+		<templatelistener name="uzbotNotifyTimelineJS">
+			<environment>admin</environment>
+			<templatename>uzbotAdd</templatename>
+			<eventname>UzbotNotifyJS</eventname>
+			<templatecode><![CDATA[{include file='__uzbotAddNotifyTimelineJS' application='timeline'}]]></templatecode>
+		</templatelistener>
+	</import>
+</data>
